@@ -16,7 +16,7 @@
  * @copyright 2013 Smile
  * @license   Apache License Version 2.0
  */
-class Smile_ElasticSearch_Model_Resource_Catalog_Product_Collection extends Mage_Catalog_Model_Resource_Product_Collection
+class Smile_ElasticSearch_Model_Resource_Catalog_Product_Collection extends Mage_CatalogSearch_Model_Resource_Advanced_Collection
 {
     /**
      * @var Smile_ElasticSearch_Model_Resource_Engine_Elasticsearch Search engine.
